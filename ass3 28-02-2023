@@ -1,0 +1,23 @@
+//c program to print armstrong numbers in the given range.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n,r,c,sum=o,temp;
+printf("enter the value");
+scanf("%d",&n);
+temp=n;
+while(n>0);
+{
+r=n%10;
+c=r*r*r;
+sum=sum+c;
+n=n/10;
+}
+n=temp;
+if(n==sum)
+{
+printf("it is armstrong number");
+}
+getch();
+}
